@@ -21,7 +21,7 @@ import "moment/locale/tr";
 
 export default async function FlashNews({ title, body, id }) {
   return (
-     <div>
+      <div>
     <Link href={`/${id}`} className={styles.card}>
       <div className={styles.cardImage}>
         <Image
@@ -50,9 +50,7 @@ export default async function FlashNews({ title, body, id }) {
         </WhatsappShareButton>
         </div>
       </div>
-     
     </Link>
-    
     </div>
   );
 }

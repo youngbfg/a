@@ -101,21 +101,18 @@
 
 @media (min-width: 375px) and (max-width: 766px) {
   .icons {
-   margin-right: 10px;
-   margin-left: 60px;
-   margin-top: -30px;
-   color: #003c84;
+    margin-right: 10px;
+    margin-left: 60px;
+    margin-top: -30px;
+    color: #003c84;
   }
 }
 
 @media (min-width: 375px) and (max-width: 766px) {
   .buttons {
-   margin-left: 160px;
-   
+    margin-left: 160px;
   }
 }
-
-
 
 @media (min-width: 375px) and (max-width: 766px) {
   .title {
@@ -158,9 +155,9 @@
 
 @media (min-width: 375px) and (max-width: 766px) {
   .time {
-   margin-left: 100px;
-   color: #003c84;
-   font-weight: bold;
+    margin-left: 100px;
+    color: #003c84;
+    font-weight: bold;
   }
 }
 
@@ -197,7 +194,6 @@
     width: auto;
   }
 }
-
 
 @media (min-width: 767px) and (max-width: 877px) {
   .cardImage {
