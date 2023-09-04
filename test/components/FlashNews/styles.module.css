@@ -3,16 +3,15 @@
   align-items: center;
   gap: 30px;
   margin-top: 10px;
-  padding: 3em;
 }
 
 .cardImage {
   flex-shrink: 0;
   position: relative;
   height: 500px;
-  width: 900px;
+  width: 1200px;
   gap: 30px;
-  cursor: default;
+  cursor:default;
 }
 
 .card img {
@@ -28,19 +27,18 @@
 }
 
 .cardBody {
-  margin-left: 40px;
+  margin-left: 12px;
   gap: 30px;
 }
 
 .cardBody p {
   margin-top: 4px;
   display: -webkit-box;
-  -webkit-line-clamp: 6;
+  -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
   gap: 30px;
-  cursor: default;
-  font-size: 20px;
+  cursor:default;
 }
 
 .cardBody h3 {
@@ -48,18 +46,18 @@
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  font-size: 18px;
 }
 
 .title {
   font-weight: bold;
   color: #003c84;
   gap: 30px;
-  cursor: default;
-  font-size: 30px;
+  cursor:default;
 }
 
-.buttons {
-  background-color: #003c84;
+.buttons{
+  background-color: #003c84; 
   border: none;
   color: white;
   padding: 7px;
@@ -69,111 +67,97 @@
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  margin-left: 340px;
   font-weight: bold;
-  margin-top: 100px;
 }
 
-.buttons {
+.buttons{
   border-radius: 40px;
   -webkit-border-radius: 40px;
   -moz-border-radius: 40px;
   -ms-border-radius: 40px;
   -o-border-radius: 40px;
-  margin-left: 500px;
 }
 
-.icons {
+.icons{
   margin-right: 300px;
-  color: gray;
   margin-top: -40px;
+  color: #003c84;
 }
 
-.time {
-  color: gray;
+.time{
+  color: #003c84;
   font-weight: bold;
-  font-style: italic;
-  margin-bottom: 20px;
 }
 
-@media (min-width: 1px) and (max-width: 374px) {
-  .title {
-    font-size: 30px;
-    padding-right: 60px;
-    color: black;
-    font-weight: bold;
-  }
-
-  .body {
-    font-size: 20px;
-    padding-right: 60px;
-  }
-
-  .time {
-    color: gray;
-    font-weight: bold;
-    margin-top: 10px;
-  }
-
+@media (min-width: 375px) and (max-width: 766px) {
   .card {
+    margin-top: 10px;
+    width: auto;
+    height: auto;
     display: grid;
-    padding: 10px;
   }
+}
 
-  .cardImage {
-    width: 310px;
-    height: 300px;
-    margin-left: 30px;
-  }
-
+@media (min-width: 375px) and (max-width: 766px) {
   .icons {
     margin-right: 10px;
-    color: gray;
+    margin-left: 60px;
+    margin-top: -30px;
+    color: #003c84;
   }
+}
 
+@media (min-width: 375px) and (max-width: 766px) {
   .buttons {
     margin-left: 160px;
-    margin-top: 40px;
   }
 }
 
 @media (min-width: 375px) and (max-width: 766px) {
   .title {
+    margin: auto;
     font-size: 30px;
-    padding-right: 60px;
-    color: black;
     font-weight: bold;
+    color: #003c84;
+    
   }
+}
 
-  .body {
-    font-size: 20px;
-    padding-right: 60px;
-  }
-
-  .time {
-    color: gray;
-    font-weight: bold;
-    margin-top: 10px;
-  }
-
-  .card {
-    display: grid;
-    padding: 10px;
-  }
-
+@media (min-width: 375px) and (max-width: 766px) {
   .cardImage {
-    width: 310px;
-    height: 300px;
-    margin-left: 30px;
+    margin: auto;
+    font-size: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 250px;
+    height: 250px;
   }
+}
 
-  .icons {
-    margin-right: 10px;
-    color: gray;
+@media (min-width: 375px) and (max-width: 766px) {
+  .title {
+    margin: auto;
+    font-size: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
+}
 
-  .buttons {
-    margin-left: 160px;
-    margin-top: 40px;
+@media (min-width: 375px) and (max-width: 766px) {
+  .body {
+    margin: auto;
+    font-size: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 766px) {
+  .time {
+    margin-left: 100px;
+    color: #003c84;
+    font-weight: bold;
   }
 }
 
@@ -188,18 +172,39 @@
 }
 
 @media (min-width: 768px) and (max-width: 877px) {
-  .buttons {
-    margin-left: 300px;
+  .card {
+    margin-top: 50px;
+    height: auto;
+    width: auto;
   }
+}
 
-  .icons {
-    margin-top: -40px;
-    display: flex;
+@media (min-width: 768px) and (max-width: 877px) {
+  .title {
+    color: #003c84;
+    font-size: x-large;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 877px) {
+  .body {
+    margin-top: 50px;
+    height: auto;
+    width: auto;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 877px) {
+  .cardImage {
+    height: 250px;
+    width: 250px;
   }
 }
 
 @media (min-width: 1462px) and (max-width: 1800px) {
   .buttons {
-    margin-left: 300px;
+    margin-left: 200px;
   }
 }
+

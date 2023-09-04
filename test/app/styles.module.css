@@ -6,18 +6,18 @@
 
 .card {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   cursor: default;
   gap: 20px 180px;
-  
   
 }
 .cardImage {
   flex-shrink: 0;
   position: relative;
- 
+  height: 1200px;
+  width: 674px;
   cursor: default;
-  
+  margin-left: 20px;
 }
 
 .icona {

@@ -9,10 +9,10 @@
 
 .cardImage {
   position: relative;
-  width: 1500px;
-  height: 600px;
+  width: 1550px;
+  height: 300px;
   border-radius: 30px;
-  right: 20px;
+  right: 60px;
   gap: 20px 40px;
 }
 
@@ -22,7 +22,7 @@
   cursor: default;
   color: black;
   border-radius: 100px;
-  margin-right: 1440px;
+  margin-right: 1570px;
   margin-top: 10px;
 }
 
@@ -33,10 +33,11 @@
 
 .title {
   text-align: justify;
-  font-size: 42px;
+  font-size: 48px;
   flex-shrink: 0;
-  margin-top: -230px;
-  margin-right: 420px;
+  color: #003c84;
+  margin-top: 60px;
+  margin-right: 390px;
   text-transform: uppercase;
 }
 
@@ -47,28 +48,19 @@
 
 .titles {
   text-align: justify;
-  font-size: 25px;
+  font-size: 20px;
   margin-right: 200px;
-  margin-left: 175px;
+  margin-left: 110px;
   margin-top: 10px;
 }
 
 .icona {
-  display: grid;
-  margin-right: 1700px;
-  margin-top: 10px;
-  color: #b7c2cc;
-}
-
-.iconas {
-  margin-right: 200px;
-  margin-left: auto;
-  margin-top: 10px;
-  color: #b7c2cc;
+  margin-right: 1800px;
+  margin-top: -300px;
+  color: #003c84;
 }
 
 .text {
-  text-transform: capitalize;
   color: #003c84;
   font-size: medium;
   text-align: center;
@@ -83,64 +75,58 @@
 }
 
 .texts {
-  display: flex;
-  color: #b7c2cc;
-  width: 300px;
-  margin-left: 120px;
+  color: #003c84;
+  margin-top: 70px;
   font-weight: bold;
-  font-style: italic;
 }
 
-@media (min-width: 1px) and (max-width: 374px) {
+@media (min-width: 375px) and (max-width: 766px) {
   .cardImage {
-    margin-left: 20px;
+    margin-left: 110px;
     width: 300px;
     height: 250px;
   }
+}
 
+@media (min-width: 375px) and (max-width: 766px) {
   .title {
     margin: auto;
     font-size: 30px;
     margin-top: 160px;
+    color: #003c84;
     padding-left: 40px;
     padding-right: 40px;
   }
+}
 
+@media (min-width: 375px) and (max-width: 766px) {
   .titles {
     margin: auto;
     font-size: 20px;
     padding-left: 40px;
     padding-right: 40px;
   }
-
-  .counter {
-    margin-left: 100px;
-  }
-
-  .icona {
-    width: 10px;
-    height: 10px;
-    margin-right: 400px;
-    color: #b7c2cc;
-    margin-top: -200px;
-  }
 }
 
-@media (min-width: 1px) and (max-width: 374px) {
+@media (min-width: 375px) and (max-width: 877px) {
   .text {
     margin-left: 10px;
     margin-top: 10px;
     font-size: 15px;
-    color: #003c84;
+    color: #003c84
   }
+}
 
+@media (min-width: 375px) and (max-width: 877px) {
   .texts {
     margin-left: 10px;
     margin-top: 4px;
     font-size: 15px;
-    color: #b7c2cc;
+    color: #003c84;
   }
+}
 
+@media (min-width: 375px) and (max-width: 877px) {
   .smallImage {
     margin-right: 90px;
     font-size: 20px;
@@ -150,60 +136,18 @@
 }
 
 @media (min-width: 375px) and (max-width: 766px) {
-  .cardImage {
-    margin-left: 20px;
-    width: 300px;
-    height: 250px;
-  }
-
-  .title {
-    margin: auto;
-    font-size: 30px;
-    margin-top: 160px;
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-
-  .titles {
-    margin: auto;
-    font-size: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-
   .counter {
     margin-left: 100px;
   }
+}
 
+@media (min-width: 375px) and (max-width: 766px) {
   .icona {
     width: 10px;
     height: 10px;
     margin-right: 400px;
-    color: #b7c2cc;
-    margin-top: -200px;
-  }
-}
-
-@media (min-width: 375px) and (max-width: 877px) {
-  .text {
-    margin-left: 10px;
-    margin-top: 10px;
-    font-size: 15px;
     color: #003c84;
-  }
-
-  .texts {
-    margin-left: 10px;
-    margin-top: 4px;
-    font-size: 15px;
-    color: #b7c2cc;
-  }
-
-  .smallImage {
-    margin-right: 90px;
-    font-size: 20px;
-    width: 150px;
-    height: 150px;
+    margin-top: -200px;
   }
 }
 
@@ -215,28 +159,36 @@
     float: right;
     margin-left: 30px;
   }
+}
 
+@media (min-width: 877px) and (max-width: 1440px) {
   .title {
     margin: auto;
     margin-right: 120px;
     font-size: 25px;
     color: #003c84;
   }
+}
 
+@media (min-width: 877px) and (max-width: 1440px) {
   .titles {
     margin: auto;
     margin-right: 120px;
     font-size: 18px;
     margin-top: 10px;
   }
+}
 
+@media (min-width: 877px) and (max-width: 1440px) {
   .text {
     margin-left: 10px;
     margin-top: 10px;
     font-size: 15px;
     color: #003c84;
   }
+}
 
+@media (min-width: 877px) and (max-width: 1440px) {
   .icona {
     float: right;
     margin-right: 170px;
@@ -244,7 +196,9 @@
     margin-bottom: 10px;
     color: #003c84;
   }
+}
 
+@media (min-width: 877px) and (max-width: 1440px) {
   .smallImage {
     margin-right: 150px;
     font-size: 20px;
@@ -253,43 +207,54 @@
   }
 }
 
-@media (min-width: 767px) and (max-width: 877px) {
+@media (min-width: 768px) and (max-width: 877px) {
   .cardImage {
     width: 700px;
     height: 300px;
     margin: auto;
-    margin-left: 50px;
+    margin-left: 100px;
   }
+}
 
+@media (min-width: 767px) and (max-width: 877px) {
   .title {
     margin: auto;
     font-size: 25px;
+    color: #003c84;
+    padding-left: 40px;
     padding-right: 40px;
   }
+}
 
+@media (min-width: 767px) and (max-width: 877px) {
   .titles {
     font-size: 18px;
     margin: auto;
     padding-left: 40px;
     padding-right: 80px;
   }
+}
 
+@media (min-width: 767px) and (max-width: 877px) {
   .text {
     margin-left: 10px;
     margin-top: 10px;
     font-size: 15px;
     color: #003c84;
   }
+}
 
+@media (min-width: 767px) and (max-width: 877px) {
   .icona {
-    display: flex;
     float: right;
     margin-right: 150px;
     font-size: 10px;
     margin-top: -50px;
-    color: #b7c2cc;
+    color: #003c84;
   }
+}
 
+@media (min-width: 767px) and (max-width: 877px) {
   .smallImage {
     margin-right: 150px;
     font-size: 20px;
@@ -300,50 +265,62 @@
 
 @media (min-width: 1462px) and (max-width: 1800px) {
   .cardImage {
-    width: 1300px;
-    height: 600px;
-    margin-left: 60px;
+    width: 1450px;
+    height: 300px;
+    margin-left: 120px;
   }
+}
 
+@media (min-width: 1462px) and (max-width: 1800px) {
   .title {
-    margin-top: -280px;
-    margin-right: 100px;
+    margin-top: -170px;
+    margin-right: 260px;
     font-size: 45px;
+    color: #003c84;
   }
+}
 
+@media (min-width: 1462px) and (max-width: 1800px) {
   .titles {
     margin-top: 10px;
     font-size: 25px;
-    margin-right: 200px;
+    margin-right: 10px;
   }
+}
 
+@media (min-width: 1462px) and (max-width: 1800px) {
   .text {
-    margin-left: 170px;
-    margin-top: -100px;
+    margin-left: 10px;
+    margin-top: 10px;
     font-size: 15px;
     color: #003c84;
   }
+}
 
+@media (min-width: 1462px) and (max-width: 1800px) {
   .texts {
-    margin-left: 170px;
+    margin-left: 10px;
     margin-top: 10px;
     font-size: 15px;
-    color: #b7c2cc;
+    color: #003c84;
     font-weight: bold;
   }
+}
 
+@media (min-width: 1462px) and (max-width: 1800px) {
   .smallImage {
-    margin-right: 1150px;
+    margin-right: 1300px;
     font-size: 20px;
     width: 150px;
     height: 150px;
   }
+}
 
+@media (min-width: 1462px) and (max-width: 1800px) {
   .icona {
     float: right;
-    margin-right: 1480px;
+    margin-right: 1580px;
     font-size: 10px;
-    margin-top: 40px;
-    color: #b7c2cc;
+    margin-top: -60px;
   }
 }

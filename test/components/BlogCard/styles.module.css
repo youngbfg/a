@@ -1,0 +1,227 @@
+.card {
+  display: grid;
+  align-items: center;
+  gap: 30px;
+  margin-top: 40px;
+  
+}
+
+.cardImage {
+  flex-shrink: 0;
+  position: relative;
+  height: 220px;
+  width: 220px;
+  gap: 30px;
+  cursor:default;
+}
+
+.card img {
+  border-radius: 30px;
+  object-fit: cover;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 3px;
+  margin-left: 5px;
+  gap: 30px;
+}
+
+.cardBody {
+  margin-left: 10px;
+  
+}
+
+.cardBody p {
+  margin-top: 4px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  gap: 30px;
+  cursor:default;
+}
+
+.cardBody h3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 18px;
+}
+
+.title {
+  font-weight: bold;
+  color: #003c84;
+  gap: 30px;
+  cursor:default;
+}
+
+.button{
+  background-color: #003c84; 
+  border: none;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 4px;
+  cursor: pointer;
+  margin-left: 100px;
+  font-weight: bold;
+}
+
+.button{
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+
+.icons{
+  margin-top: -30px;
+  color: #003c84;
+}
+
+.time{
+  color: #003c84;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+@media (min-width: 375px) and (max-width: 766px) {
+  .card {
+    margin-top: 10px;
+    width: auto;
+    height: auto;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 766px) {
+  .time {
+   margin-left: 100px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 766px) {
+  .icons {
+   margin-left: 70px;
+   color: #003c84;
+
+  }
+}
+
+@media (min-width: 375px) and (max-width: 766px) {
+  .title {
+   
+    margin-left: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #003c84;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 766px) {
+  .body {
+    margin: auto;
+    font-size: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 766px) {
+  .cardImage {
+    margin: auto;
+    font-size: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 766px) {
+  .button {
+    margin-left: 170px;
+    
+  }
+}
+
+@media (min-width: 375px) and (max-width: 766px) {
+  .body {
+    margin: auto;
+    font-size: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media (min-width: 877px) and (max-width: 1440px) {
+  .card {
+    width: 700px;
+    height: 300px;
+    margin-right: auto;
+    float: right;
+    margin-left: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 877px) {
+  .card {
+    margin-top: 50px;
+    height: auto;
+    width: auto; 
+  }
+}
+
+@media (min-width: 768px) and (max-width: 877px) {
+  .title {
+    color: #003c84;
+    font-size: x-large;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 877px) {
+  .body {
+    margin-top: 50px;
+    height: auto;
+    width: auto;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 877px) {
+  .cardImage {
+    height: 250px;
+    width: 250px;
+  }
+}
+
+@media (min-width: 1462px) and (max-width: 1800px) {
+  .cardImage {
+    width: 265px;
+    height: 265px;
+    
+  }
+}
+
+@media (min-width: 1462px) and (max-width: 1800px) {
+  .button {
+      background-color: #003c84; 
+  border: none;
+  color: white;
+  padding: 7px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: 100px;
+  font-weight: bold;
+    
+  }
+}
+
+

@@ -14,6 +14,7 @@ import {
   AiFillTwitterCircle,
   AiOutlineWhatsApp,
 } from "react-icons/ai";
+import moment from "moment";
 import "moment/locale/tr";
 
 async function getPost(id) {
@@ -40,6 +41,7 @@ export default async function Page({ params }) {
           fill
         />
       </div>
+      
       <div className={styles.smallImage}>
         <img
           alt="/"
@@ -47,39 +49,27 @@ export default async function Page({ params }) {
           src={`https://picsum.photos/960/400?random=${id}`}
         />
         <div className={styles.text}>userId:{userId}</div>
-        <div className={styles.texts}>8 Mayıs 2023 / İstanbul </div>
+        <div className={styles.texts}>{moment(id).format("LLL")}</div>
       </div>
+
       <div className="my-12 h-0.5 border-t-0 bg-neutral-100 opacity-50 dark:opacity-50"></div>
       <div className={styles.icona}>
         <FacebookShareButton url={`http://10.1.245.102:3000/${id}`}>
-          <AiFillFacebook size={27} />
+          <AiFillFacebook size={40}  />
         </FacebookShareButton>
-        <TwitterShareButton url={`http://192.168.68.111:3000/${id}`}>
-          <AiFillTwitterCircle size={27} />
-        </TwitterShareButton>
         <LinkedinShareButton url={`http://192.168.68.111:3000/${id}`}>
-          <AiFillLinkedin size={27} />
+          <AiFillLinkedin size={40}  />
         </LinkedinShareButton>
+        <TwitterShareButton url={`http://192.168.68.111:3000/${id}`}>
+          <AiFillTwitterCircle size={40}  />
+        </TwitterShareButton>
         <WhatsappShareButton url={`http://192.168.68.111:3000/${id}`}>
-          <AiOutlineWhatsApp size={27} />
+          <AiOutlineWhatsApp size={40}  />
         </WhatsappShareButton>
       </div>
+
       <div className={styles.title}>{title}</div>
       <p className={styles.titles}>{body}</p>
-      <div className={styles.iconas}>
-        <FacebookShareButton url={`http://10.1.245.102:3000/${id}`}>
-          <AiFillFacebook size={27} />
-        </FacebookShareButton>
-        <TwitterShareButton url={`http://192.168.68.111:3000/${id}`}>
-          <AiFillTwitterCircle size={27} />
-        </TwitterShareButton>
-        <LinkedinShareButton url={`http://192.168.68.111:3000/${id}`}>
-          <AiFillLinkedin size={27} />
-        </LinkedinShareButton>
-        <WhatsappShareButton url={`http://192.168.68.111:3000/${id}`}>
-          <AiOutlineWhatsApp size={27} />
-        </WhatsappShareButton>
-      </div>
     </div>
   );
 }
